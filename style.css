@@ -1,0 +1,53 @@
+body {
+    background: #fff5de;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-logo {
+    padding-top: 100px;
+    height: 200px;
+    width: 550px;
+}
+
+h1 {    
+    font-family: "Source Code Pro", monospace;
+}
+
+#inputBar {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#ffcc01;
+    border-color: #375daa;
+    border-width: 4px;
+    text-align: center;        
+}
+
+#inputBar {
+    color:#375daa;
+}
+
+#searchButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#375daa;
+    color:#ffcc01;
+    border-color: #ffcc01;
+    border-width: 4px;    
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}

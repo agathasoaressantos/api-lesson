@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Lesson</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>API Lesson - Pokemon</title>
+    <link rel="stylesheet" href="style.css"/>       
 </head>
 
 <body>
-    <h1>API Lesson</h1>
+    <section id="container">
+        <img id="pokemon-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png">
+    </section>
 
-    <form>
+    <p class="line anim-typewriter">Type in a number. Click on the button. See the magic happens!</p>
+       
+    <form id="form">
         <input type="text"
             value=""
             placeholder="Choose your Pokemon!"
@@ -21,11 +28,11 @@
             value="Click Here!"
             id="searchButton"
             />
-
-</form>
+    </form>
 
 <h1 id="pokemonName"></h1>
 
     <script src="script.js"></script>
 </body>
-</html>
+
+</html>             
